@@ -1,0 +1,24 @@
+package main
+import "fmt"
+var publisher,writer,artist,title string ="DizzyBooks Publishing Inc","Tracey Hatchet","Jewel Tampson","Mr. GoToSleep" 
+var year,pageNumber uint = 1997,14
+var grade float32 = 6.5
+func main(){
+fmt.Println(title, " written by" , writer, "drawn by ",artist, "Published by " ,publisher, "in year" ,year, "number of pages",pageNumber,"score",grade) 
+fmt.Println("")
+
+title = "Epic Vol. 1"
+writer = " Ryan N. Shawn"
+artist = "Phoebe Paperclips"
+year = 2013
+pageNumber = 160
+grade = 9.0
+
+
+
+
+
+fmt.Println(title, " written by" , writer, "drawn by ",artist, "Published by " ,publisher, "in year" ,year, "number of pages",pageNumber,"score",grade) 
+
+
+}
