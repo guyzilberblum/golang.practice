@@ -19,6 +19,26 @@ grade = 9.0
 
 
 fmt.Println(title, " written by" , writer, "drawn by ",artist, "Published by " ,publisher, "in year" ,year, "number of pages",pageNumber,"score",grade) 
+fmt.Println("")
+
+title = "Ego Is the Enemy"
+writer = "  Ryan Holiday"
+artist = "Phoebe Paperclips"
+year = 2016
+pageNumber = 160
+grade = 10
+publisher = "Portfolio, Penguin"
+var genre string  = "non fiction,motivational essay "
+var cost uint = year*pageNumber/10000
+
+
+fmt.Println(title, " written by" , writer, "drawn by ",artist, "Published by " ,publisher, "in year" ,year, "number of pages",pageNumber,"genre",genre,"score",grade,cost) 
+
+
+
+
+
+
 
 
 }
